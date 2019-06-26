@@ -12,7 +12,9 @@ Failed download attempts will be registered to a log file.
 
 ### install
 
-Move the output folder of reddit-html-archiver to this folder. 
+`git clone https://github.com/ruanchaves/reddit-html-archiver-image-plugin`
+
+Move the output folder of reddit-html-archiver to this folder ( `reddit-html-archiver-image-plugin` ). 
 
 ```
 conda create --name redditenv python=3.7
@@ -20,7 +22,7 @@ conda activate redditenv
 pip install -r requirements.txt
 ```
 
-You can skip the first two commands and just run `sudo -H pip install -r requirements.txt` on this folder if you don't wish to run this plugin on a virtual environment.
+You can skip the first two commands and just run `sudo -H pip3 install -r requirements.txt` on this folder if you don't wish to run this plugin on a virtual environment.
 
 After that, `python image_plugin.py` will download all images to this folder.
 
